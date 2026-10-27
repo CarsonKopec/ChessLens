@@ -1,0 +1,13 @@
+ChessLens reads a chess app mirrored from your phone, follows the game and analyses it with Stockfish.
+
+How it works
+- An app such as AirScreen shows your phone's screen in a window. ChessLens reads that window's pixels; it does not connect to your phone.
+- Everything runs on this computer. Nothing is uploaded. The screen is processed in memory and never recorded.
+- Learned piece images, settings and (only if you turn it on) game history are kept in %APPDATA%\ChessLens. Uninstalling asks whether to delete them.
+
+Stockfish
+- The analysis engine, Stockfish, is a separate free program (GPL-3.0). Tick "Install Stockfish" on a later page to install it with winget, or install it yourself later:
+    winget install --id Stockfish.Stockfish --exact
+
+Fair play
+- Use engine suggestions only where engine help is allowed: study, puzzles, games against the computer, or reviewing finished games. Using them in live or rated games against other people breaks the rules of Chess.com and other chess sites.

@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Windows build (scripts/build_windows.py): PyInstaller work folder, app folder and installer
+build/
+dist/
+
+# Game Bar widget (scripts/build_gamebar_widget.py)
+gamebar-widget/bin/
+gamebar-widget/obj/
+gamebar-widget/AppPackages/
+gamebar-widget/BundleArtifacts/
+.vs/
+*.user
+
+# Things ChessLens saves that can show someone's screen or a chess app's copyrighted piece art
+chesslens-tracking-*/
+*.npz
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

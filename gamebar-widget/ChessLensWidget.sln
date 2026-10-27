@@ -1,0 +1,27 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessLensWidget", "ChessLensWidget.csproj", "{78E94FF7-D439-43AF-A829-0623415327F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78E94FF7-D439-43AF-A829-0623415327F6}.Debug|x64.ActiveCfg = Debug|x64
+		{78E94FF7-D439-43AF-A829-0623415327F6}.Debug|x64.Build.0 = Debug|x64
+		{78E94FF7-D439-43AF-A829-0623415327F6}.Debug|x64.Deploy.0 = Debug|x64
+		{78E94FF7-D439-43AF-A829-0623415327F6}.Release|x64.ActiveCfg = Release|x64
+		{78E94FF7-D439-43AF-A829-0623415327F6}.Release|x64.Build.0 = Release|x64
+		{78E94FF7-D439-43AF-A829-0623415327F6}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensionGlobals) = postSolution
+		SolutionGuid = {E1A51820-B40D-4D0B-BA86-831852FA29F6}
+	EndGlobalSection
+EndGlobal

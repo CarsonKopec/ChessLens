@@ -1,0 +1,25 @@
+# ChessLens defaults. Copy this file and pass it with --config to override.
+
+[capture]
+# Frames per second read from the mirroring window (spec §4.2 default: 5).
+fps = 5.0
+# Case-insensitive substring of the window title or process name to pre-select.
+# This only pre-selects; any window can still be picked in the UI.
+window_hint = "AirScreen"
+# Pause when another window covers the mirroring window's client area.
+check_occlusion = true
+# Bounded retry backoff when the window disappears (seconds).
+initial_backoff_s = 0.5
+max_backoff_s = 5.0
+
+[engine]
+# Stockfish executable. Empty: look on PATH and in winget's install folder
+# (winget install --id Stockfish.Stockfish --exact).
+path = ""
+# Search threads; 0 means half the CPU cores, at most 4 (spec §17: modest settings).
+threads = 0
+hash_mb = 128
+# Candidate lines shown (spec §6.5 default: 3).
+multipv = 3
+# Search time per position in seconds (spec §17: about 0.5-1.0 s).
+think_time_s = 1.0
